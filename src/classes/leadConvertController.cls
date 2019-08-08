@@ -183,7 +183,7 @@ public with sharing class leadConvertController extends PageControllerBase {
                 taskToCreate.Priority = myTaskComponentController.taskID.Priority;
                 
                 //set the custom field Primary Resource (this is a custom field on the Task showing an example of adding custom fields to the page)
-                taskToCreate.Primary_Resource__c = myTaskComponentController.taskID.Primary_Resource__c;
+                // taskToCreate.Primary_Resource__c = myTaskComponentController.taskID.Primary_Resource__c;
                 
                 //set the Description field which comes from the leadConvertTaskDescComponent
                 taskToCreate.Description =  myDescriptionComponentController.taskID.Description;
