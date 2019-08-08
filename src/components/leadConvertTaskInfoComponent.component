@@ -56,7 +56,7 @@
         
         <!-- Task Primary Resource (Custom field demonstrating that custom fields can be added to the custom Lead Convert page -->
         <apex:outputLabel value="" />
-        <apex:inputField id="taskPrimaryResource" value="{!taskId.Primary_Resource__c}" />
+       <!--  <apex:inputField id="taskPrimaryResource" value="{!taskId.Primary_Resource__c}" /> -->
         
     </apex:pageBlockSection>
 
